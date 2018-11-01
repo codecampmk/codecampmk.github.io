@@ -15,7 +15,7 @@
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
     <!-- Custom styles for this template -->
-    <link href="css/agency.min.css" rel="stylesheet">
+    <link href="css/agency.css" rel="stylesheet">
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-128061995-1"></script>
 	<script>
@@ -149,14 +149,17 @@
     <section id="speakers">
         <div class="container">
             <h2 class="section-heading">Speakers</h2>
-            <p class="text-center">TBD</p>
+            <p class="text-center">
+				TBD
+			</p>
         </div>
     </section>
 
     <section id="sponsors">
         <div class="container">
-            <h2 class="section-heading">Sponsors</h2>
-            <p class="text-center">TBD</p>
+            <h2 class="section-heading">SPONSORS</h2>
+			<p class="text-center">TBD</p>
+			
         </div>
     </section>
 
@@ -221,7 +224,8 @@
             let $days = document.getElementById("days");
             let $hours = document.getElementById("hours");
             let $minutes = document.getElementById("minutes");
-            let dueDate = new Date(2018, 10, 17, 7, 0, 0);
+            let dueDate = new Date(2018, 10, 17, 8, 0, 0);
+			console.log(dueDate);
 
             function format(value) {
                 let str = "" + value;

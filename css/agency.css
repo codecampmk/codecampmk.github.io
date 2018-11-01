@@ -12,6 +12,10 @@ p {
   line-height: 1.75;
 }
 
+h2.contributor {
+	margin-bottom:10px;
+}
+
 a {
   color: #fed136;
 }
@@ -43,6 +47,15 @@ section h2.section-heading {
   color: #682A7B;
   margin-top: 0;
   margin-bottom: 15px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+section h2.section-heading2 {
+  font-size: 18px;
+  color: #682A7B;
+  margin-top: 5px;
+  margin-bottom: 10px;
   text-transform: uppercase;
   text-align: center;
 }
